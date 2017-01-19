@@ -1,6 +1,6 @@
 #Usefull Git commands
 
-@author: waytowich
+@author: Nicholas Waytowich
 
 
 ## Feature Branch Workflow
@@ -12,14 +12,14 @@ the changes. Then, after merging, pull request will be closed, and you can delet
 local and remote feature branches
 
 
-# check your current remote repositories
+### check your current remote repositories
     git remote -v
     
-# Add remote repositories
+## Add remote repositories
     git remote add <quick-reference-name> <remote-url>
     (ie git remote add origin https://github.com/uname/myrepo.git)
 
-# Switch the tracking of local/branch and remote/branch
+## Switch the tracking of local/branch and remote/branch
     git branch <branch> -u <remote>/<branch>
 
 # After tracking is set, 
