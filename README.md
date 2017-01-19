@@ -1,12 +1,9 @@
-#!/usr/bin/env python2
-# -*- coding: utf-8 -*-
-"""
-Usefull Git commands
+#Usefull Git commands
 
 @author: waytowich
 
 
-# Feature Branch Workflow
+## Feature Branch Workflow
 When working on a new feature, it's usefull to create a new branch for the feature,
 make commits as usual and push the new branch up to the remote repository. 
 When finished with changes, you can merge feature branch into master branch. Ideally,
@@ -71,5 +68,4 @@ local and remote feature branches
     git -push <remote> --delete <branch>
 
 
-"""
 
