@@ -38,6 +38,14 @@ local and remote feature branches
 ### Create new branch and switch to it:
     git checkout -b <branch>
     
+### Update git's knowledge of the status of remote server
+    git fetch					      #Update status for currently tracked remote
+    git fetch <remote>				      #Update status of specified remote
+
+### Pull in a remote branch to local for first time
+    git fetch <remote> <remote-branch>:<local-branch> #Fetch status of specified remote branch and create local branch
+    git checkout <local-branch
+    
 ### Standard working commands
     git status
     git add <file>
