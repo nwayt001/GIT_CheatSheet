@@ -69,8 +69,8 @@ local and remote feature branches
     git push                #I assume we need to push to remote after merging local?
     
 ### Delete local branch
-    git -d <branch>  (safe delete - only deleted after merge)
-    git -D <branch>  (hard delete)
+    git branch -d <branch>  (safe delete - only deleted after merge)
+    git branch -D <branch>  (hard delete)
     
 ### Delete remote branch
     git -push <remote> --delete <branch>
