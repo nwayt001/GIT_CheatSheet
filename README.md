@@ -73,7 +73,7 @@ local and remote feature branches
     git branch -D <branch>  (hard delete)
     
 ### Delete remote branch
-    git -push <remote> --delete <branch>
+    git push <remote> --delete <branch>
 
 
 
