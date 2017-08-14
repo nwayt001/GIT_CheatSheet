@@ -74,6 +74,18 @@ local and remote feature branches
     
 ### Delete remote branch
     git push <remote> --delete <branch>
+    
+## Stashing - Temporarily stashing unfinished code changes before commiting so that you can switch to different branches or do other things. 
+
+### Stash uncommited changes
+    git stash
+    
+### View stashed items
+    git stash list
+
+### Reaply previously stashed item to working directory
+    git stash apply  # for the most recent stash
+    git stash apply stash@{2}  # for the stash at position 2 (thrid recently stashed item) for example
 
 
 
