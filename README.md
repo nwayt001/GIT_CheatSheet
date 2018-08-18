@@ -88,4 +88,13 @@ local and remote feature branches
     git stash apply stash@{2}  # for the stash at position 2 (thrid recently stashed item) for example
 
 
+### Reset git to previous commit (i.e. remove commit from history)
+    git reset HEAD~ 1  # this removes the last commit
+    git reset HEAD~ 3  # this removes the last 3 commits
+    git reset HEAD~ 3  --hard # this removes the last 3 commits and deletes the changes in the commits (dont do this)
+    git push origin -f  # this pushes the change to remote and forces it to be the same (i.e. it removes the last commit from remote)
+
+
+    git push origin -f  # this pushes the change to remote and forces it to be the same (i.e. it removes the last commit from remote)
+    
 
