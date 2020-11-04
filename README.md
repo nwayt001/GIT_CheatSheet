@@ -11,7 +11,7 @@ before this is done, on the GUI, you open a pull request so that others can see/
 the changes. Then, after merging, pull request will be closed, and you can delete the 
 local and remote feature branches
 
-
+  
 ### Check your current remote repositories
     git remote -v
     
